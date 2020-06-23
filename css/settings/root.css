@@ -1,0 +1,13 @@
+* {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+:root {
+    --bgcenter: #3c3c3c;
+    --branco: #ffff;
+    --verde: #1db954;
+    --preto: #181818;
+    --pretolateral: #121212;
+    --cinza: #b3b3b3;
+}
