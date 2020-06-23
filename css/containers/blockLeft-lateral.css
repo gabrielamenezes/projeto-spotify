@@ -1,0 +1,30 @@
+.blockLeft-lateral{
+    width: 198px;
+    height: 652px;
+    background-color: #121212;
+    padding: 20px;
+    position: fixed;
+}
+
+.itemList_firstMenu {
+    padding: 5px;
+}
+.linkLateral {
+    color: #b3b3b3;
+    font-weight: bold;
+}
+
+.active:hover {
+    color: var(--branco);
+}
+
+.block-newPlaylist {
+    height:325px;
+    width: 198px;
+    border-top: 1px solid #282828;
+    color: var(--cinza);
+}
+
+.block-newPlaylist img {
+    margin-top: 10px;
+}
