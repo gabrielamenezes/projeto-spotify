@@ -1,0 +1,7 @@
+.player-bottom {
+    position: fixed;
+    width: 100%;
+    background-color: #282828;
+    bottom: 0;
+    height: 71px;
+}
