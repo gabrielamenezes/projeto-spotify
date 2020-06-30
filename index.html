@@ -1,102 +1,217 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
     <link rel="stylesheet" href="css/generic/reset.css">
     <link rel="stylesheet" href="css/settings/root.css">
-    <link rel="stylesheet" href="css/containers/block-center.css">
+    <link rel="stylesheet" href="css/containers/block_middle.css">
     <link rel="stylesheet" href="css/containers/blockLeft-lateral.css">
     <link rel="stylesheet" href="css/containers/lateralChoices.css">
     <link rel="stylesheet" href="css/containers/block-library.css">
     <link rel="stylesheet" href="css/containers/player-bottom.css">
     <link rel="stylesheet" href="css/containers/blockRight-lateral.css">
+    <link rel="stylesheet" href="css/containers/block_playlist_songs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/285bd2b860.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <section class="blockLeft-lateral">
         <ul class="settings">
             <li>
                 <a href="#"><img src="img/3points.png" alt=""></a>
             </li>
-        <div class="principal-nav">
-            <ul class="wrap-menu">
-                <li class="itemList_firstMenu"><a href="#" class="active linkLateral"><img src="img/home.png" alt="">Início</a></li>
-                <li class="itemList_firstMenu"><a href="#" class="active linkLateral"><img src="img/album.png" alt="">Navegar</a></li>
-                <li class="itemList_firstMenu"><a href="#" class="active linkLateral"><img src="img/radio.png" alt="">Rádio</a></li>
-            </ul>
-        </div>
-        <div class="lateralChoices">
-            <div class="block-library">
-                <p class="title-lateral">SUA BIBLIOTECA</p>
-                <ul class="wrap-library">
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Feitos para você</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Tocados Rencentemente</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Músicas Curtidas</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Álbuns</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Artistas</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Podcasts</a></li>
+            <div class="principal-nav">
+                <ul class="wrap-menu">
+                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral"><img src="img/home.png"
+                                alt="">Início</a></li>
+                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral"><img src="img/album.png"
+                                alt="">Navegar</a></li>
+                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral"><img src="img/radio.png"
+                                alt="">Rádio</a></li>
                 </ul>
             </div>
-
-            <div class="block-playlist">
-                <p class="title-lateral">PLAYLISTS</p>
-                <ul class="wrap-playlists">
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">salvadô</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">If I were a playlist pt 2</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">funkzinhos leves da gabi</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">mpb etc</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">discovering shit</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Gospel</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">discovering shit</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Gospel</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">discovering shit</a></li>
-                    <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Gospel</a></li>
-            </div>
-        </div>
-        <div class="block-newPlaylist">
-            <a class="active"><img src="img/plus.png">Nova Playlist</a>
-        </div>
-        
-    </section>
-    <section class="center">
-        <div class="block-center">
-            <div class="topo">
-                <div class="arrows">
-                    <img src="img/arrow1.png">
-                    <img src="img/arrow2.png">
+            <div class="lateralChoices">
+                <div class="block-library">
+                    <p class="title-lateral">SUA BIBLIOTECA</p>
+                    <ul class="wrap-library">
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Feitos para você</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Tocados Rencentemente</a>
+                        </li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Músicas Curtidas</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Álbuns</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Artistas</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">Podcasts</a></li>
+                    </ul>
                 </div>
-                <input type="search" class="input" placeholder="Buscar">
+
+                <div class="block-playlist">
+                    <p class="title-lateral">PLAYLISTS</p>
+                    <ul class="wrap-playlists">
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">salvadô</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">If I were a playlist pt
+                                2</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">funkzinhos leves da
+                                gabi</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">mpb etc</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">discovering shit</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">VIBEZZ</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">iorc thiago</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">if I were a playlist</a>
+                        </li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">thoughts</a></li>
+                        <li class="itemList_firstMenu"><a href="#" class="active linkLateral">lofi hip hop music</a>
+                        </li>
+                </div>
             </div>
-            <div class="main-content">
-                <div class="album">
-                    <div class="cover">
-                        <img src="img/cover1.png" alt="">
-                    </div>
-                    <div class="cover">
-                        <img src="img/cover2.png" alt="">
-                    </div>
-                    <div class="cover">
-                        <img src="img/cover3.png" alt="">
-                    </div>
-                    <div class="cover">
-                        <img src="img/cover4.png" alt="">
-                    </div>
-                    </div>
-                    <h1 class="playlist-title">If I were a playlist pt2</h1>
+            <div class="block-newPlaylist">
+                <a class="active">Nova Playlist</a>
+            </div>
+    </section>
+    <!--conteúdo principal (playlist selecionada)-->
+    <section class="block_middle">
+        <div class="topo-middle">
+            <input type="search">
+            <!--INPUT DE BUSCA E PERFIL-->
+        </div>
+
+        <div class="main_content">
+            <div class="block_album">
+                <img src="img/cover1.png" alt="" class="cover">
+                <img src="img/cover2.png" alt="" class="cover">
+                <img src="img/cover3.png" alt="" class="cover">
+                <img src="img/cover4.png" alt="" class="cover">
+            </div>
+            <div class="block_txt">
+                <p>PLAYLIST</p>
+                <h1>if I were a playlist pt 2</h1>
+                <p class="info_playlist">Criada por <a class="link active_middle">Gabriela Menezes</a> - 213 músicas,
+                    12h55min</p>
+                <div class="button">
+                    <button class="pause_btn">PAUSE</button>
+                </div>
+            </div>
+        </div>
+        <div class="block_playlist_songs">
+            <div class="container">
+                <table class="lista_playlist">
+                    <tr class="linha">
+                        <td class="coluna coluna1">TÍTULO</td>
+                        <td class="coluna coluna2">ARTISTA</td>
+                        <td class="coluna coluna3">ÁLBUM</td>
+                        <td class="coluna coluna4"><i class="far fa-calendar-alt"></i></td>
+                    </tr>
+
+                    <tbody>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">
+                                COPYCAT
+                            </td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                        <tr class="row-playlist">
+                            <td class="coluna1 item-playlist song-title">COPYCAT</td>
+                            <td class="coluna2 item-playlist song-artist">
+                                <a href="#" class="active_middle">Billie Eilish</a>
+                            </td>
+                            <td class="coluna3 item-playlist song-album">
+                                <a href="#" class="active_middle">don't smile at me</a>
+                            </td>
+                            <td class="coluna4 item-playlist song-date">28-04-19</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </section>
 
-
-
-
-
-
-
+    <section class="blockRight-lateral">
+        <h2 class="">Atividade dos amigos</h2>
+        <div class="borda_bottom"></div>
+    </section>
     <section class="player-bottom">
 
     </section>
 
 </body>
+
 </html>
