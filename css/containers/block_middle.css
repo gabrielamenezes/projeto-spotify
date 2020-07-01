@@ -1,0 +1,72 @@
+.block_middle {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 896px;
+    height: 90vh;
+    display: block;
+    margin: 0 auto;
+    background: #181818;
+}
+
+.block_middle > .topo-middle {
+    width: 100%;
+    height: 40px;
+}
+
+.main_content {
+    width: 896px;
+    height: 237px;
+}
+
+.main_content .block_album {
+    width: 221px;
+    height: 221px;
+    background-color: var(--preto);
+    margin: 30px;
+    float: left;
+    
+}
+
+.block_album .cover {
+    float: left;
+}
+
+.block_txt {
+    float: left;
+    margin-top: 90px;
+    display: block;
+    color: #ffffff;
+}
+
+.block_txt h1 {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 8px 0;
+}
+.block_txt .info_playlist {
+    padding-bottom: 8px;
+}
+.active_middle {
+    color: #ffffff;
+}
+.active_middle:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pause_btn {
+    width: 107px;
+    height: 33px;
+    color: #ffffff;
+    background-color: #1db954;
+    font-size: 12px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.pause_btn:hover {
+    background-color: #1ed760;
+    transform: scale(1.1);
+}

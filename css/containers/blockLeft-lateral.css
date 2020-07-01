@@ -5,7 +5,9 @@
     padding: 20px;
     position: fixed;
 }
-
+.wrap-menu {
+    padding-bottom: 20px;
+}
 .itemList_firstMenu {
     padding: 5px;
 }
@@ -23,8 +25,12 @@
     width: 198px;
     border-top: 1px solid #282828;
     color: var(--cinza);
+    padding: 20px;
 }
 
-.block-newPlaylist img {
-    margin-top: 10px;
+
+
+.block-newPlaylist > .fa-plus-circle {
+    font-size: 16px;
+    
 }

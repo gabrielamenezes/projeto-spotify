@@ -1,0 +1,60 @@
+.block_playlist_songs {
+    width: 896px;
+    display: flex;
+    background-color:#181818;
+    padding-top: 20px;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 834px;
+    display: block;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+tr, td {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 834px;
+    text-align: center;
+}
+
+.linha {
+    border-bottom: 1px solid #282828;
+}
+.coluna {
+    padding: 5px 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.row-playlist {
+    border-bottom: 1px solid #282828;
+}
+
+.row-playlist:hover {
+    background-color: #282828;
+}
+
+
+
+.heart {
+    width: 12px;
+}
+
+.item-playlist {
+    padding: 12px 0;
+}
+
+
+.song-title::before {
+    content: '\f004';
+    font-family: 'Font Awesome 5 Pro';
+}
+
+.song-date {
+    color: #b3b3b3;
+}

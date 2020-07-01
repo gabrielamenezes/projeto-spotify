@@ -1,10 +1,15 @@
 .block-library {
     padding: 20px 0;
+
 }
 
 .title-lateral {
     color: var(--cinza);
     font-size: 12px;
     padding: 5px;
+}
+
+.linkLateral {
+    font-size: 13px;
 }
 
